@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SectorSecured</string>
+    <string name="level1_description">
+        Welcome, Cipher. I am NULL, an insider within Enemy-Corp (E-Corp), the shadowy force manipulating Nexis from the shadows. I have chosen you as the guardian to liberate this city from their oppressive grasp.
+        \n\nHowever, your journey begins with a challenge that tests your ingenuity. To unlock your mission, you must first discover the key that lies within. Sometimes, the answers you seek are hidden in plain sight.
+        \n\nThe fate of Nexis hangs in the balance, and only your skills can tip the scales. Embrace the challenge that awaits you.
+    </string>
+    <string name="level2_description">
+        Congratulations, Cipher. You\'ve completed your first test; now, can you discern what comes next?
+        \n\nIn this next phase, you face a locked door with no input fields or buttons. Silence surrounds you, but there’s always a way to turn whispers into action.
+        \n\nRemember, in the digital realm, every app has a path. Your knowledge of the system is your greatest ally.
+        \n\nFind a method to navigate past this barrier and reveal what lies beyond. The secrets of E-Corp await.
+    </string>
+    <string name="level3_description">
+        Cipher, E-Corp has concealed another clue within the fabric of this app. They trust that burying information in obscure places will keep it beyond reach.
+        \n\nBut true mastery means uncovering what others overlook. Seek out the fragments woven into the code itself – a concealed message that only a vigilant mind can uncover. Follow this thread, and you’ll find the path forward.
+    </string>
+    <string name="level4_description">
+        Cipher, we’ve gathered intel on a key player within E-Corp—"PhantomHack." He’s been feeding E-Corp crucial info. We’ve tracked his movements, but need to dig deeper.
+        \n\nYour task: infiltrate the login system. There’s a vulnerability in how user data is handled, and PhantomHack’s credentials are within reach. Accessing his account will reveal what he’s been transmitting to E-Corp.
+    </string>
+    <string name="level5_description">Cipher, you’ve made a significant breakthrough—PhantomHack’s phone is now in your hands. With it, you’ve gained access to a wealth of information. But this is only the beginning.
+        \n\nYou’re deep in the heart of enemy territory. Use your skills to uncover hidden hosts and confidential files—the secrets you uncover could change everything. Time is ticking, and E-Corp is always watching. Find what’s hidden, and expose the truth before it’s buried forever.
+    </string>
+    <string name="level6_description">
+        Cipher, it’s confirmed—PhantomHack is working with E-Corp. We need to stay alert.
+        \n\nI\'ve hidden a message in code for you to figure out. Can you find out what I’m saying through this encryption?
+        \n\n(Fix the broken decryption algorithm)
+    </string>
+    <string name="protocol_passcode">fc7cdd1ed94bb07a2a52a3ef8da6c1ef1b11a2bb08988bb121e27bc82065b77f</string>
+    <string name="final_task">Vavgvngr cebgbpby ‘Mreb Gehfg’—ab bar vf fnsr, rira gubfr pybfrfg.</string>
+</resources>

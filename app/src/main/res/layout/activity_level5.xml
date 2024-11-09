@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/TerminalTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!-- Level Title Text -->
+    <TextView
+        android:id="@+id/challengeNameTextView5"
+        android:layout_width="352dp"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:text="Level 5: Echoes of Betrayal"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177" />
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/titleTextView5"
+        android:layout_width="352dp"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:text="SectorSecured"
+        android:textColor="#00FF00"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <!-- Info Text -->
+    <TextView
+        android:id="@+id/infoTextView5"
+        android:layout_width="352dp"
+        android:layout_height="286dp"
+        android:background="#1E1E1E"
+        android:gravity="center"
+        android:maxLines="30"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        android:text="@string/level5_description"
+        android:textColor="#00FF00"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <!-- Protocol Passcode Input -->
+    <EditText
+        android:id="@+id/protocolPasscodeInput"
+        android:layout_width="352dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00FF00"
+        android:hint="Enter Protocol Passcode"
+        android:inputType="textPassword"
+        android:textColor="#00FF00"
+        android:textColorHint="#00FF00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <!-- Verify Passcode Button -->
+    <Button
+        android:id="@+id/verifyPasscodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#333333"
+        android:onClick="verifyPasscode"
+        android:padding="10dp"
+        android:text="Verify Passcode"
+        android:textColor="#00FF00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/protocolPasscodeInput"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!-- URL/File Path Input -->
+    <EditText
+        android:id="@+id/uriInput5"
+        android:layout_width="352dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00FF00"
+        android:hint="Enter URL or file path"
+        android:inputType="textUri"
+        android:textColor="#00FF00"
+        android:textColorHint="#00FF00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <!-- Load Button -->
+    <Button
+        android:id="@+id/loadButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#333333"
+        android:onClick="loadContent"
+        android:padding="10dp"
+        android:text="Load"
+        android:textColor="#00FF00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uriInput5"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
